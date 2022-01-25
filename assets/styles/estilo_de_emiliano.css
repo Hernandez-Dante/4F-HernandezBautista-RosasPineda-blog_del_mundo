@@ -1,0 +1,18 @@
+body{
+     background-color: black;
+     color:#fff;
+}
+
+article{
+
+    background-color: rgb(70, 67, 67);
+}
+
+.resaltado{
+    color:yellow;
+}
+
+#titulo_centrado{
+    text-align: center;
+    font-size: 3rem; 
+}
