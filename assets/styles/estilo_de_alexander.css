@@ -58,3 +58,44 @@ nav>ul>li>a {
 }
 
 /* fin ilustraciones */
+
+section{
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+
+    grid-auto-rows: auto;
+
+    gap: 3rem;
+
+}
+
+section>header {
+
+    display: grid;
+
+    grid-column: span 12;
+
+}
+
+section>main {
+    
+    display: grid;
+
+    grid-column: span 8;
+
+}
+
+section>aside {
+
+    display: grid;
+
+    grid-column: span 4;
+}
+
+section>footer {
+
+    display: grid;
+
+    grid-column: span 12;
+}
