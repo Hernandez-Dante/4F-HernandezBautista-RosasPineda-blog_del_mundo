@@ -14,9 +14,9 @@ article{
 
 
 #titulo_centrado{
-
    text-align: center;
-   font-size: clamp (2rem, 1% +2rem, 7rem); 
+   font-size: clamp(2rem, 1% + 2rem, 7rem);
+   margin-top: 65px;
 }
 /* Terminan clases generales  */
 
@@ -144,7 +144,7 @@ nav{
 }
 nav ul{
     display: grid;
-    grid-template-columns: 2, 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
     gap: 1rem;
 }
