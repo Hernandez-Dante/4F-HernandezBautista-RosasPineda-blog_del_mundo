@@ -132,9 +132,13 @@ nav ul{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border-bottom: 1px solid red;
             }
-        }
+
+        nav {
+            border-bottom: 1px solid red;
+
+        }    
+    }
 
     article>header>hgroup{
         display: flex;
@@ -168,6 +172,12 @@ nav ul{
         display: flex;
         align-items: center;
         justify-content: flex-end;
+    }
+
+    @media (min-width: 1024.1px) and (max-width: 1324.1px) {
+        aside div {
+            flex-direction: column;
+        }
     }
 
     aside>div>span{
